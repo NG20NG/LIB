@@ -1,4 +1,4 @@
-.buttonsContainer {
+.hooksContainer {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -12,7 +12,7 @@
   overflow-y: scroll;
 }
 
-.buttonsFooter {
+.hooksFooter {
   width: 500px;
   height: 100%;
   border-left: 1px solid #303030;

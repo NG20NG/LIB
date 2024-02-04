@@ -1,13 +1,18 @@
+import { Column } from "@/lib/layouts/layouts";
 import b from "./page.module.css";
-import { DisplayNormalButtons } from "@/styledComponents/buttons/display";
+import { LoadingButtons, NormalButtons } from "@/lib/buttons/display";
 
 const Buttons = () => {
   return (
     <div className={b.buttonsContainer}>
       <div className={b.components}>
-        <DisplayNormalButtons />
+        <Column gap={30}>
+          <h1>Buttons</h1>
+          <NormalButtons />
+          <LoadingButtons />
+        </Column>
       </div>
-      <div className={b.buttonsFooter}>123</div>
+      <div className={b.buttonsFooter}></div>
     </div>
   );
 };

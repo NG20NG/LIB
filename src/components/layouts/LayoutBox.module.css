@@ -1,0 +1,93 @@
+.layoutBoxContainer {
+  border: 1px solid #7070701e;
+  width: 550px;
+  height: fit-content;
+  border-radius: 5px;
+}
+.styledComponents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: #11161b;
+  gap: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.navBar {
+  height: 45px;
+  width: 100%;
+  border: 1px solid #7070701e;
+  border-left: none;
+  border-right: none;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.commandButtons {
+  border: 1px solid #7070701e;
+  background-color: rgb(0, 102, 255);
+  height: 25px;
+  padding: 2px 5px;
+  margin-left: 5px;
+  border-radius: 3px;
+  color: #ffffff;
+  transition: all 0.1s;
+}
+.commandButtons:hover {
+  background-color: rgba(255, 255, 255, 0.027);
+  background-color: rgb(0, 84, 211);
+}
+.codeContainer {
+  outline: 2px solid rgba(255, 255, 255, 0);
+  position: relative;
+  transition: all 0.2s;
+}
+.codeContainer:hover {
+  outline: 2px solid rgb(58, 55, 219);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.clickCopy {
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 8px 15px;
+  color: rgb(199, 199, 199);
+  font-size: 13px;
+}
+.clickCopy:hover {
+  border-bottom-left-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.034);
+}
+/*
+==================
+  Layout Code
+==================
+*/
+.layoutCodeContainer {
+  border: 1px solid #7070701e;
+  width: 550px;
+  height: 500px;
+  height: fit-content;
+  border-radius: 5px;
+}
+.textInfo {
+  padding: 13px;
+}
+.codeFormatterContainer {
+  border-top: 1px solid #7070701e;
+  border-bottom: 1px solid #7070701e;
+  outline: 2px solid rgba(255, 255, 255, 0);
+  transition: all 0.2s;
+}
+.codeFormatterContainer:hover {
+  outline: 2px solid rgb(58, 55, 219);
+}
+.outputConsole {
+  display: flex;
+  align-items: center;
+}

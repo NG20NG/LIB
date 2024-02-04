@@ -1,0 +1,25 @@
+.transparentButtonDisabled {
+  color: #636363;
+  pointer-events: none;
+  user-select: none;
+}
+
+.textButtonDisabled {
+  color: #636363;
+  pointer-events: none;
+  user-select: none;
+}
+
+.filledButtonDisabled {
+  color: #636363;
+  background-color: #272727;
+  pointer-events: none;
+  user-select: none;
+}
+
+.outlinedButtonDisabled {
+  color: #636363;
+  border: 1px solid #272727;
+  pointer-events: none;
+  user-select: none;
+}

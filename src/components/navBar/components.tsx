@@ -10,7 +10,7 @@ import React from "react";
 type FolderTypes = Readonly<{ children: ReactNode; text: string }>;
 //
 export const Folders = ({ children, text }: FolderTypes) => {
-  const [toggle, setToggle] = useState<boolean>(true);
+  const [toggle, setToggle] = useState<boolean>(false);
   const [current, setCurrent] = useState<string>("Buttons");
 
   const pathSvg = "/folder/arrow-ios-back.svg";

@@ -7,7 +7,9 @@ const NavBar = () => {
     <div className={n.navBar}>
       <Folders text="Components">
         <Files text="Buttons" href="/" />
-        <Files text="Group Buttons" href="/buttons" />
+      </Folders>
+      <Folders text="Custom hooks">
+        <Files text="Form" href="/hooks" />
       </Folders>
     </div>
   );

@@ -1,0 +1,21 @@
+.loadingIcon {
+  border: 1px solid #686868; /* Light grey */
+  border-top: 1px solid transparent; /* Blue */
+  border-right: 1px solid transparent; /* Blue */
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(140deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

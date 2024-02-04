@@ -1,0 +1,18 @@
+.styleCode {
+  margin: 0 !important;
+  background-color: rgba(0, 128, 0, 0) !important;
+}
+.styleCode::-webkit-scrollbar {
+  height: 3px;
+}
+
+/* Track */
+.styleCode::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+.styleCode::-webkit-scrollbar-thumb {
+  background-color: rgb(36, 36, 36);
+  border-radius: 10px;
+}

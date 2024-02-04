@@ -1,0 +1,56 @@
+.transparentButton {
+  background-color: transparent;
+  border-radius: 3px;
+  font-size: 12px;
+  color: white;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+}
+.transparentButton:hover {
+  background-color: #ffffff11;
+}
+.textButton {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #2a2a2a5f;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+  background-color: #ffffff00;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.textButton:hover {
+  background-color: #ffffff08;
+}
+.filledButton {
+  color: white;
+  border-radius: 3px;
+  background-color: #5884ff;
+  font-size: 12px;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+}
+.filledButton:hover {
+  background-color: #376cff;
+}
+.outlinedButton {
+  color: white;
+  background-color: transparent;
+  border: 1px solid #5884ff;
+  font-size: 12px;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+}
+.outlinedButton:hover {
+  background-color: #ffffff05;
+}
+.loadingIcon {
+  width: 0px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
